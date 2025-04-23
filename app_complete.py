@@ -83,7 +83,8 @@ def save_to_csv(category_name, books):
                                   'number_available', 'review_rating',
                                   'product_description', 'image_url'
                               ],
-                              delimiter=';')
+                              delimiter=';',
+                              quoting=csv.QUOTE_ALL )
         writer.writeheader()
         writer.writerows(books)
     
