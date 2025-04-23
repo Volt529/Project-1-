@@ -1,0 +1,4 @@
+Python == 3.6
+Bs4 == 0.0.1
+BeautifulSoup4 == 4.12.2
+requests==2.31.0
