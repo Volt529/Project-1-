@@ -6,6 +6,8 @@ from datetime import datetime
 import time
 
 BASE_URL = "https://books.toscrape.com"
+OUTPUT_DIR = "book_data"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def get_categories():
     """Récupère toutes les catégories de livres sauf 'Books'"""
